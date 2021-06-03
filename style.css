@@ -90,7 +90,7 @@ main {
 }
 
 .card:hover~.card{
-    transform: translateX(1vw);
+    transform: translateX(2.5vw);
 }
 
 .card:not(:first-child){

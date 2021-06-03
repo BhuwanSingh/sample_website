@@ -7,3 +7,4 @@ fs.writeFile('file.txt' , "this is somethhing new" , (err)=>{
         console.log("yup created");
     }
 })
+

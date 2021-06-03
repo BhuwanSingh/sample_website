@@ -1,10 +1,18 @@
-const fs = require('fs');
+// const readline = require("readline");
 
-fs.writeFile('file.txt' , "this is somethhing new" , (err)=>{
-    if(err){
-        console.log(err);
-    } else {
-        console.log("yup created");
-    }
+// let rl = readline.createInterface({
+//     input : process.stdin,
+//     output : process.stdout
+// });
+
+// let a = rl.input;
+
+// console.log(a + 10);
+
+const prompt = require('prompt');
+prompt.start();
+
+prompt.get(['this'] , (err, result) => {
+    if(err) {console.log(err);}
+    console.log(parseInt(result.this) + 12);
 })
-

@@ -63,3 +63,24 @@ main{
     padding-top: 10px;
     padding-left: 10px;
 }
+
+.card-list{
+    display: flex;
+    padding-top: 20vh;
+    padding-left: 1rem;
+}
+
+.card{
+    display: flex;
+    padding: .4rem;
+    position: relative;
+    flex-direction: column;
+    height: 60vh;
+    width: 3vw;
+    min-width: 250px;
+    max-width: 700px;
+
+    border-radius: 16px;
+    background: chocolate;
+    box-shadow: -1rem 0 3rem #000;
+}

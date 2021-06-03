@@ -1,10 +1,9 @@
-const {readFile , readFileSync} = require('fs').promises;
+const fs = require('fs');
 
-async function hello(){
-    const file = await readFile('./file.txt' , 'utf8');
-    console.log(file);
-}
-
-console.log("hsaoe ");
-
-hello();
+fs.writeFile('file.txt' , "this is somethhing new" , (err)=>{
+    if(err){
+        console.log(err);
+    } else {
+        console.log("yup created");
+    }
+})

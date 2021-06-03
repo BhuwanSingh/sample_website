@@ -1,2 +1,1 @@
-hello this is a sample text file.
-Just to check the filereading library of javascript.
+this is somethhing new

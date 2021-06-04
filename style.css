@@ -85,14 +85,22 @@ main {
     transition: 250ms;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-1rem);
 }
 
-.card:hover~.card{
+.card:hover ~ .card {
     transform: translateX(2.5vw);
 }
 
-.card:not(:first-child){
-    margin-left: -2vw
+.card:not(:first-child) {
+    margin-left: -2vw;
+}
+
+.my-image {
+    height: 100vh;
+    margin: -2%;
+    padding: 0%;
+    background: linear-gradient(to right , rgba(29, 29, 29, 1) , rgba(29, 29, 29, 0));
+    height: 100vh;
 }
